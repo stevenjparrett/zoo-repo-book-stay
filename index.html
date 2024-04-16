@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Hotel Booking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Zoo Hotel Booking System</h1>
+    <form id="bookingForm">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="date" id="checkInDate" required>
+        <input type="date" id="checkOutDate" required>
+
+        <select id="roomType" required>
+            <option value="">Select Room Type</option>
+            <option value="Single">Single</option>
+            <option value="Double">Double</option>
+            <option value="Suite">Suite</option>
+        </select>
+        <input type="number" id="guests" placeholder="Number of Guests" required>
+        <textarea id="specialRequests" placeholder="Special Requests"></textarea>        
+        <button type="submit">Book Now</button>
+    </form>
+    <div id="bookings"></div>
+    <script src="script.js"></script>
+</body>
+</html>

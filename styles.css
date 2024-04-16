@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Lato:wght@400&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    background-color: #f4f3ee;
+    color: #333;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2d6a4f;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"]
+select,
+textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #6a4f4b;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+button {
+    background-color: #e76f51;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f4a261;
+}
+
+div#bookings div {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #e76f51;
+    font-family: 'Lato', sans-serif;
+}
