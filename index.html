@@ -11,8 +11,10 @@
     <form id="bookingForm">
         <input type="text" id="name" placeholder="Full Name" required>
         <input type="email" id="email" placeholder="Email" required>
-        <input type="date" id="checkInDate" required>
-        <input type="date" id="checkOutDate" required>
+        <input type="text" id="checkInDate" placeholder="Check-In Date" readonly onclick="showCalendar('checkIn')">
+        <div id="checkInCalendar" class="calendar"></div>
+        <input type="text" id="checkOutDate" placeholder="Check-Out Date" readonly onclick="showCalendar('checkOut')">
+        <div id="checkOutCalendar" class="calendar"></div>
 
         <select id="roomType" required>
             <option value="">Select Room Type</option>

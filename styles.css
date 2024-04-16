@@ -57,3 +57,34 @@ div#bookings div {
     border-left: 5px solid #e76f51;
     font-family: 'Lato', sans-serif;
 }
+
+
+
+.calendar {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar th, .calendar td {
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.calendar th {
+    background-color: #f0f0f0;
+}
+
+.calendar td:hover {
+    background-color: #f4f4f4;
+}
